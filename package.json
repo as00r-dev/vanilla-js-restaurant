@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-js-restaurant",
+  "version": "1.0.0",
+  "description": "A simple website for a Restaurant created using vanilla JS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/as00r-dev/vanilla-js-restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/as00r-dev/vanilla-js-restaurant/issues"
+  },
+  "homepage": "https://github.com/as00r-dev/vanilla-js-restaurant#readme"
+}
