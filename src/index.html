@@ -9,14 +9,21 @@
 	<body>
 		<div class="content">
 			<!-- header -->
-			<header>
-				<div class="container">
+			<header class="flex">
+				<div class="container flex">
 					<div class="logo">
 						<span>Creamy Clouds</span>
 					</div>
-					<nav>
-						<ul>
-							<li><a href="#">Home</a></li>
+					<button
+						class="hamburger"
+						aria-expanded="false"
+						aria-controls="primary-navigation"
+					>
+						<span class="sr-only">Menu</span>
+					</button>
+					<nav data-visible="false">
+						<ul id="primary-navigation" class="primary-navigation flex">
+							<li class="active"><a href="#">Home</a></li>
 							<li><a href="#">Menu</a></li>
 							<li><a href="#">About</a></li>
 							<li class="last"><a href="#">Place Order</a></li>
@@ -24,63 +31,46 @@
 					</nav>
 				</div>
 			</header>
-			<!-- hero section -->
-			<article>
-				<div class="container">
-					<div class="col">
-						<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-						<p>
-							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde
-							asperiores cum, saepe vitae nam omnis reiciendis dicta inventore
-							nobis exercitationem eligendi quae ducimus fugiat accusantium
-							sapiente autem eos ad. Magnam?
-						</p>
-						<button>lorem ipsum</button>
-					</div>
-					<div class="col">
-						<img src="#" alt="ice-cream" />
-					</div>
-				</div>
-			</article>
-			<!-- cards -->
-			<article>
-				<div class="container">
-					<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
-					<div class="col">
-						<h3>lorem ipsum</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-							enim officiis ipsam autem illum neque temporibus
-						</p>
-						<button>lorem ipsum</button>
-					</div>
-					<div class="col">
-						<h3>lorem ipsum</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-							enim officiis ipsam autem illum neque temporibus
-						</p>
-						<button>lorem ipsum</button>
-					</div>
-					<div class="col">
-						<h3>lorem ipsum</h3>
-						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-							enim officiis ipsam autem illum neque temporibus
-						</p>
-						<button>lorem ipsum</button>
-					</div>
-				</div>
-			</article>
-			<!-- menu vertical carousel -->
-			<article>
-				<div class="container">
-					<div class="col">
-						<img src="#" alt="ice-cream" />
-					</div>
-					<div class="col">
-						<div class="menu-item">
+			<main>
+				<!-- hero section -->
+				<section>
+					<div class="container">
+						<div class="col">
+							<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+							<p>
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde
+								asperiores cum, saepe vitae nam omnis reiciendis dicta inventore
+								nobis exercitationem eligendi quae ducimus fugiat accusantium
+								sapiente autem eos ad. Magnam?
+							</p>
+							<button>lorem ipsum</button>
+						</div>
+						<div class="col">
 							<img src="#" alt="ice-cream" />
+						</div>
+					</div>
+				</section>
+				<!-- cards -->
+				<section>
+					<div class="container">
+						<h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+						<div class="col">
+							<h3>lorem ipsum</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+								enim officiis ipsam autem illum neque temporibus
+							</p>
+							<button>lorem ipsum</button>
+						</div>
+						<div class="col">
+							<h3>lorem ipsum</h3>
+							<p>
+								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+								enim officiis ipsam autem illum neque temporibus
+							</p>
+							<button>lorem ipsum</button>
+						</div>
+						<div class="col">
 							<h3>lorem ipsum</h3>
 							<p>
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
@@ -89,8 +79,27 @@
 							<button>lorem ipsum</button>
 						</div>
 					</div>
-				</div>
-			</article>
+				</section>
+				<!-- menu vertical carousel -->
+				<section>
+					<div class="container">
+						<div class="col">
+							<img src="#" alt="ice-cream" />
+						</div>
+						<div class="col">
+							<div class="menu-item">
+								<img src="#" alt="ice-cream" />
+								<h3>lorem ipsum</h3>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+									enim officiis ipsam autem illum neque temporibus
+								</p>
+								<button>lorem ipsum</button>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
 			<!-- footer -->
 			<footer>
 				<div class="container">Made with Love by as00r for TOP</div>
