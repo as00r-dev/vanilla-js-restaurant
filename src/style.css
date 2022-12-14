@@ -38,7 +38,8 @@
 	--bg-glass: hsla(0, 0%, 100%, 0.5);
 	--gap: 32px;
 	--font-xs: 0.75rem;
-	--font-sm: 1.333rem;
+	--font-sm: 1rem;
+	--font-sd: 1.333rem;
 	--font-md: 1.777rem;
 	--font-lg: 2.369rem;
 	--font-xl: 3.157rem;
@@ -75,30 +76,15 @@ h5 {
 	font-family: Ultra;
 }
 
-h1 {
+h1,
+h2 {
 	margin-top: 0;
 	font-size: var(--font-md);
-}
-
-h2 {
-	font-size: var(--font-xl);
+	color: var(--china-rose);
 }
 
 h3 {
-	font-size: var(--font-lg);
-}
-
-h4 {
-	font-size: var(--font-md);
-}
-
-h5 {
-	font-size: var(--font-sm);
-}
-
-small,
-.text_small {
-	font-size: var(--font-xs);
+	font-size: var(--font-sd);
 }
 
 /* utility class */
@@ -135,6 +121,27 @@ small,
 	transition: transform 350ms ease-in-out;
 }
 
+.image {
+	width: 100%;
+	height: auto;
+}
+
+.button {
+	outline: 0;
+	border: 0;
+	padding: 8px 32px;
+	border-radius: 32px;
+	background: var(--orange-yellow-crayola);
+	cursor: pointer;
+}
+
+.button:hover {
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.034), 0 2px 3px rgba(0, 0, 0, 0.068);
+	transition: all 0.2s ease-out;
+	background: #121212;
+	color: var(--orange-yellow-crayola);
+}
+
 /* section (for spacing between sections) */
 section {
 	margin-bottom: 2.625rem;
@@ -147,6 +154,7 @@ header {
 	background: whitesmoke;
 	position: sticky;
 	top: 0;
+	height: 100px;
 }
 
 .hamburger {
@@ -197,4 +205,43 @@ header .logo {
 		z-index: 9999;
 		display: block;
 	}
+}
+
+/* Hero section */
+.hero {
+	height: calc(100vh - 100px);
+}
+
+.hero .container {
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero .container .col {
+	width: 100%;
+}
+
+.hero .container .col:last-child {
+	width: 100%;
+	height: 40vh;
+	background: url(/src/assets/images/pexels-jj-jordan-8380252.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (min-width: 648px) {
+	.hero .container {
+		flex-direction: row;
+	}
+}
+
+/* card section */
+.card {
+	background: whitesmoke;
+}
+
+.card-image {
+	height: 150px;
 }

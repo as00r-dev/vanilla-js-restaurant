@@ -1,5 +1,3 @@
-import "./style.css";
-
 console.log("Hello");
 const nav = document.querySelector("nav");
 const hamburger = document.querySelector(".hamburger");
