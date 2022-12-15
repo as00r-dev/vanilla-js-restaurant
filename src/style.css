@@ -272,20 +272,48 @@ header .logo {
 }
 
 /* menu */
-@media (max-width: 900px) {
-	.menu .container {
-		flex-direction: column;
-	}
+.menu .container > .flex {
+	height: 600px;
 }
 
-.menu .container > .col {
-	flex-direction: column;
-}
-
-.menu .card .col {
+.menu .container > .flex > .col {
 	flex: 1;
 }
 
-.menu .card-image {
+.menu .container > .flex > .col.flex {
+	flex-direction: column;
+	overflow: scroll;
+}
+
+.menu .container > .flex > .col > .card-image {
 	height: 100%;
+}
+
+@media (max-width: 648px) {
+	.menu .container > .flex {
+		flex-direction: column;
+		height: 80vh;
+	}
+}
+
+/* about */
+.about .container > .col {
+	flex: 1;
+}
+
+.about .card-image {
+	height: 100%;
+}
+
+/* footer */
+footer {
+	background: whitesmoke;
+	height: 75px;
+	align-items: center;
+	justify-content: center;
+}
+
+footer .container {
+	text-align: center;
+	flex-direction: column;
 }
