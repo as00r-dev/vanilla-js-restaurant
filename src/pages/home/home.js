@@ -46,19 +46,16 @@ function _createCardSection(headingTitle) {
 	const flexContainer = document.createElement("div");
 	flexContainer.classList.add("flex");
 	const cardOne = createCard(
-		"/src/assets/images/pexels-anna-tukhfatullina-food-photographerstylist-2638026.jpg",
 		"Best Flavour",
 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum enim officiis ipsam autem illum neque temporibus",
 		"Know More"
 	);
 	const cardTwo = createCard(
-		"/src/assets/images/pexels-anna-tukhfatullina-food-photographerstylist-2638026.jpg",
 		"Best Color",
 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum enim officiis ipsam autem illum neque temporibus",
 		"Know More"
 	);
 	const cardThree = createCard(
-		"/src/assets/images/pexels-anna-tukhfatullina-food-photographerstylist-2638026.jpg",
 		"Best Flavour",
 		"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum enim officiis ipsam autem illum neque temporibus",
 		"Know More"

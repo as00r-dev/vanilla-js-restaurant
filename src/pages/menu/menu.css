@@ -24,6 +24,10 @@
 	height: 100%;
 }
 
+.menu .card-image {
+	background-image: url(/src/assets/images/pexels-anna-tukhfatullina-food-photographerstylist-2638026.jpg);
+}
+
 @media (max-width: 648px) {
 	.menu .container > .flex {
 		flex-direction: column;

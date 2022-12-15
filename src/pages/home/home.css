@@ -45,3 +45,7 @@
 		flex-direction: column;
 	}
 }
+
+.cards .card-image {
+	background-image: url(/src/assets/images/pexels-anna-tukhfatullina-food-photographerstylist-2638026.jpg);
+}
