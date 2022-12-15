@@ -1,16 +1,12 @@
-console.log("Hello");
-const nav = document.querySelector("nav");
-const hamburger = document.querySelector(".hamburger");
+import { createCard } from "./components/card/card";
 
-hamburger.addEventListener("click", () => {
-	const isVisible = nav.getAttribute("data-visible");
-	if (isVisible === "true") {
-		nav.classList.add("transition");
-		nav.setAttribute("data-visible", "false");
-		hamburger.setAttribute("aria-expanded", "false");
-	} else {
-		nav.classList.add("transition");
-		nav.setAttribute("data-visible", "true");
-		hamburger.setAttribute("aria-expanded", "true");
-	}
-});
+const content = document.querySelector(".content");
+
+content.appendChild(
+	createCard(
+		"/src/assets/images/pexels-jj-jordan-8380252.jpg",
+		"Hello",
+		"lorem ipsum afnal ",
+		"click me"
+	)
+);

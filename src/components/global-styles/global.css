@@ -1,0 +1,106 @@
+/* Fonts */
+@font-face {
+	font-family: Pacifico;
+	src: url("/src/assets/fonts/Pacifico/Pacifico-Regular.ttf");
+}
+
+@font-face {
+	font-family: Poppins-Reg;
+	src: url("/src/assets/fonts/Poppins/Poppins.ttf");
+}
+
+@font-face {
+	font-family: Ultra;
+	src: url("/src/assets/fonts/Ultra/Ultra-Regular.ttf");
+}
+
+/* Basic CSS Reset */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Color Palette */
+:root {
+	--aero-blue: hsla(163, 60%, 82%, 1);
+	--china-rose: hsla(343, 36%, 46%, 1);
+	--vivid-tangerine: hsla(11, 100%, 79%, 1);
+	--orange-yellow-crayola: hsla(42, 93%, 73%, 1);
+	--persian-green: hsla(172, 47%, 43%, 1);
+	--pine-green: hsla(174, 100%, 23%, 1);
+	--bg-gradient: linear-gradient(
+		146deg,
+		hsla(163, 60%, 82%, 1) 0%,
+		hsla(172, 47%, 43%, 1) 52%,
+		hsla(174, 100%, 23%, 1) 100%
+	);
+	--bg-glass: hsla(0, 0%, 100%, 0.5);
+	--gap: 32px;
+	--font-xs: 0.75rem;
+	--font-sm: 1rem;
+	--font-sd: 1.333rem;
+	--font-md: 1.777rem;
+	--font-lg: 2.369rem;
+	--font-xl: 3.157rem;
+	--font-hg: 4.209rem;
+}
+
+/* Global Styles */
+
+body {
+	font-family: Poppins-Reg;
+}
+
+a {
+	text-decoration: none;
+	color: var(--pine-green);
+}
+
+a:hover {
+	color: var(--china-rose);
+}
+
+/* utility class */
+.container {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+	gap: var(--gap, 1rem);
+}
+
+.grid {
+	display: grid;
+	gap: var(--gap, 1rem);
+}
+
+.block {
+	display: block;
+	gap: var(--gap, 1rem);
+}
+
+.none {
+	display: none;
+	gap: var(--gap, 1rem);
+}
+
+.sr-only {
+	display: none;
+}
+
+.transition {
+	transition: transform 350ms ease-in-out;
+}
+
+.image {
+	width: 100%;
+	height: auto;
+}
+
+section {
+	margin-bottom: 2.625rem;
+	width: 100%;
+}

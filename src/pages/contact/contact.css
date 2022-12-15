@@ -1,0 +1,8 @@
+/* contact */
+.contact .container > .col {
+	flex: 1;
+}
+
+.contact .card-image {
+	height: 100%;
+}

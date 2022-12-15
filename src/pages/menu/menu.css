@@ -1,0 +1,24 @@
+/* menu */
+.menu .container > .flex {
+	height: 600px;
+}
+
+.menu .container > .flex > .col {
+	flex: 1;
+}
+
+.menu .container > .flex > .col.flex {
+	flex-direction: column;
+	overflow: scroll;
+}
+
+.menu .container > .flex > .col > .card-image {
+	height: 100%;
+}
+
+@media (max-width: 648px) {
+	.menu .container > .flex {
+		flex-direction: column;
+		height: 80vh;
+	}
+}

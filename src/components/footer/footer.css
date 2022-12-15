@@ -1,0 +1,12 @@
+/* footer */
+footer {
+	background: whitesmoke;
+	height: 75px;
+	align-items: center;
+	justify-content: center;
+}
+
+footer .container {
+	text-align: center;
+	flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.button {
+	outline: 0;
+	border: 0;
+	padding: 8px 32px;
+	border-radius: 32px;
+	background: var(--orange-yellow-crayola);
+	cursor: pointer;
+}
+
+.button:hover {
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.034), 0 2px 3px rgba(0, 0, 0, 0.068);
+	transition: all 0.2s ease-out;
+	background: #121212;
+	color: var(--orange-yellow-crayola);
+}

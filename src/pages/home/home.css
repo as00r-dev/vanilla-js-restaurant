@@ -1,0 +1,36 @@
+/* Hero section */
+.hero {
+	height: calc(100vh - 100px);
+}
+
+.hero .container {
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero .container .col {
+	width: 100%;
+}
+
+.hero .container .col:last-child {
+	width: 100%;
+	height: 40vh;
+	background: url(/src/assets/images/pexels-jj-jordan-8380252.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+
+@media (min-width: 648px) {
+	.hero .container {
+		flex-direction: row;
+	}
+}
+
+/* card section */
+@media (max-width: 900px) {
+	.cards .flex {
+		flex-direction: column;
+	}
+}
