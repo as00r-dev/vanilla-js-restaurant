@@ -1,6 +1,6 @@
 /* Hero section */
 .hero {
-	height: calc(100vh - 100px);
+	height: 70vh;
 }
 
 .hero .container {
@@ -29,6 +29,17 @@
 }
 
 /* card section */
+.cards {
+	min-height: 70vh;
+}
+
+.cards .container {
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
 @media (max-width: 900px) {
 	.cards .flex {
 		flex-direction: column;

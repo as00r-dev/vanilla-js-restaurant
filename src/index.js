@@ -1,12 +1,11 @@
-import { createCard } from "./components/card/card";
+import { createHomePage } from "./pages/home/home";
+import { createHeader } from "./components/header/header";
+import { createFooter } from "./components/footer/footer";
 
 const content = document.querySelector(".content");
 
-content.appendChild(
-	createCard(
-		"/src/assets/images/pexels-jj-jordan-8380252.jpg",
-		"Hello",
-		"lorem ipsum afnal ",
-		"click me"
-	)
+content.append(
+	createHeader("Creamy Clouds"),
+	createHomePage(),
+	createFooter("Made with love by as00r for TOP")
 );

@@ -50,11 +50,16 @@
 
 body {
 	font-family: Poppins-Reg;
+	background: var(--bg-gradient);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
 
 a {
 	text-decoration: none;
 	color: var(--pine-green);
+	cursor: pointer;
 }
 
 a:hover {
@@ -101,6 +106,5 @@ a:hover {
 }
 
 section {
-	margin-bottom: 2.625rem;
 	width: 100%;
 }
