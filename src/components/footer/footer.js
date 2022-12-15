@@ -1,8 +1,3 @@
-// <!-- footer -->
-// <footer class="flex">
-//        <div class="container">Made with Love by as00r for TOP</div>
-// </footer>
-
 import "./footer.css";
 import "../global-styles/global.css";
 

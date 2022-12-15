@@ -1,8 +1,21 @@
 /* contact */
 .contact .container > .col {
 	flex: 1;
+	text-align: center;
 }
 
 .contact .card-image {
 	height: 100%;
+	max-width: 400px;
+	height: auto;
+	border-radius: 6px;
+}
+
+.contact .container .col .flex {
+	align-items: center;
+	justify-content: center;
+}
+
+.contact .container .col .flex p {
+	margin-bottom: 0;
 }

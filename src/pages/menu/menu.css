@@ -1,4 +1,12 @@
 /* menu */
+main {
+	min-height: calc(100vh - 100px - 75px - 2.5rem);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2.5rem;
+}
+
 .menu .container > .flex {
 	height: 600px;
 }

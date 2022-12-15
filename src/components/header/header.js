@@ -1,27 +1,3 @@
-// <!-- header -->
-// <header class="flex">
-// 	<div class="container flex">
-// 		<div class="logo">
-// 			<span>Creamy Clouds</span>
-// 		</div>
-// 		<button
-// 			class="hamburger"
-// 			aria-expanded="false"
-// 			aria-controls="primary-navigation"
-// 		>
-// 			<span class="sr-only">Menu</span>
-// 		</button>
-// 		<nav data-visible="false">
-// 			<ul id="primary-navigation" class="primary-navigation flex">
-// 				<li class="active"><a href="#">Home</a></li>
-// 				<li><a href="#">Menu</a></li>
-// 				<li><a href="#">About</a></li>
-// 				<li class="last"><a href="#">Place Order</a></li>
-// 			</ul>
-// 		</nav>
-// 	</div>
-// </header>
-
 import "./header.css";
 import "../global-styles/global.css";
 
