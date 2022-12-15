@@ -19,3 +19,14 @@
 // 		<div class="col"><div class="card-image"></div></div>
 // 	</div>
 // </section>
+
+import "./contact.css";
+import "../../components/global-styles/global.css";
+import { createHeading } from "../../components/heading/heading";
+import { createParagraph } from "../../components/paragraph/paragraph";
+import { createButton } from "../../components/button/button";
+import { createCard } from "../../components/card/card";
+
+export function createContactPage() {
+	console.log("Hi! from contact us");
+}

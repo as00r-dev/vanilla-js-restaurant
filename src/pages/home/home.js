@@ -1,18 +1,3 @@
-// <!-- hero section -->
-// <section class="hero">
-// 	<div class="container flex">
-// 		<div class="col">
-// 			<h1>Lorem ipsum dolor sit .</h1>
-// 			<p>
-// 				Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde
-// 				asperiores cum, saepe vitae nam omnis reiciendis dicta inventore
-// 			</p>
-// 			<button class="button">lorem ipsum</button>
-// 		</div>
-// 		<div class="col"></div>
-// 	</div>
-// </section>
-
 import "./home.css";
 import "../../components/global-styles/global.css";
 import { createHeading } from "../../components/heading/heading";
@@ -50,16 +35,6 @@ function _createHeroSection(headingText, paragraphText, buttonText) {
 	heroSection.appendChild(container);
 	return heroSection;
 }
-
-// <!-- cards -->
-// <section class="cards">
-// 	<div class="container">
-// 		<h2>Lorem ipsum dolor sit</h2>
-// 		<div class="flex">
-//          create 3 cards
-// 		</div>
-// 	</div>
-// </section>
 
 function _createCardSection(headingTitle) {
 	const cardSection = document.createElement("section");

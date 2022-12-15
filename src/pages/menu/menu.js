@@ -1,208 +1,48 @@
-// <!-- menu vertical carousel -->
-// <section class="menu">
-// 	<div class="container">
-// 		<h2>Lorem ipsum dolor sit</h2>
-// 		<div class="flex">
-// 			<div class="col">
-// 				<div class="card-image"></div>
-// 			</div>
-// 			<div class="col flex">
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 				<div class="card flex">
-// 					<div class="col">
-// 						<div class="card-image"></div>
-// 					</div>
-// 					<div class="col">
-// 						<h3>lorem ipsum</h3>
-// 						<p>
-// 							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-// 							Ipsum enim officiis ipsam autem illum neque temporibus
-// 						</p>
-// 						<button class="button">lorem ipsum</button>
-// 					</div>
-// 				</div>
-// 			</div>
-// 		</div>
-// 	</div>
-// </section>
+import "./menu.css";
+import "../../components/global-styles/global.css";
+import { createHeading } from "../../components/heading/heading";
+import { createImage } from "../../components/image/image";
+import { createMenuItem } from "../../components/menu--item/menu-item";
+
+export function createMenuPage(headingTitle) {
+	const main = document.createElement("main");
+	const menuSection = document.createElement("section");
+	menuSection.classList.add("menu");
+	const container = document.createElement("div");
+	container.classList.add("container");
+	const heading = createHeading(headingTitle, 2);
+	const flexContainer = document.createElement("div");
+	flexContainer.classList.add("flex");
+	const colOne = document.createElement("div");
+	colOne.classList.add("col");
+	const image = createImage(
+		"/src/assets/images/pexels-anna-tukhfatullina-food-photographerstylist-2638026.jpg"
+	);
+	colOne.appendChild(image);
+	flexContainer.appendChild(colOne);
+	const colTwo = document.createElement("div");
+	colTwo.classList.add("col");
+	colTwo.classList.add("flex");
+	const menuItems = [
+		"Ice Cream",
+		"Sundae",
+		"Popsicle",
+		"Butterscotch",
+		"Vanilla",
+		"Lorem ipsum",
+		"Lorem ipsum",
+		"Lorem ipsum",
+		"Lorem ipsum",
+		"Lorem ipsum",
+		"Lorem ipsum",
+		"Lorem ipsum",
+	];
+	menuItems.forEach((item) => {
+		colTwo.appendChild(createMenuItem(item));
+	});
+	flexContainer.appendChild(colTwo);
+	container.append(heading, flexContainer);
+	menuSection.appendChild(container);
+	main.appendChild(menuSection);
+	return main;
+}
