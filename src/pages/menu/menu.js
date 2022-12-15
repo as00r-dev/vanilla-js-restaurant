@@ -6,6 +6,7 @@ import { createMenuItem } from "../../components/menu--item/menu-item";
 
 export function createMenuPage(headingTitle) {
 	const main = document.createElement("main");
+	main.classList.add("menu-main");
 	const menuSection = document.createElement("section");
 	menuSection.classList.add("menu");
 	const container = document.createElement("div");
