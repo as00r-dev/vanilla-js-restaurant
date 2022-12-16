@@ -1998,7 +1998,7 @@ module.exports = __webpack_require__.p + "4477576cb388530563cf.ttf";
   \******************************************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "fd740bf24afdad1ee096.jpg";
+module.exports = __webpack_require__.p + "f3a8afa8957866be5337.jpg";
 
 /***/ }),
 
@@ -2008,7 +2008,7 @@ module.exports = __webpack_require__.p + "fd740bf24afdad1ee096.jpg";
   \********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-module.exports = __webpack_require__.p + "1b3b077cc06e5bf31ea2.jpg";
+module.exports = __webpack_require__.p + "4545733afdb2d2ca4ce0.jpg";
 
 /***/ })
 
